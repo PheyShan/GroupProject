@@ -1,0 +1,52 @@
+<div class="container-fluid mx-auto py-4 px-1 px-md-3 ">
+    <div class="col">
+        <div class="w-100 text-center pb-3">
+            <h2>Featured Categories</h2>
+        </div>
+        <div class="row md-px-4">
+            <aside id="shop-nav" class="col-12 col-md-3 border-end">
+                <div class="w-100">
+                    <div class="accordion" >
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header">
+                                <button id="shop-nav-allbtn" type="button" class="accordion-button bg-shopnav text-white" >
+                                    <div class="w-100 text-center text-md-start">ALL</div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="shop_nav_catBags">
+                                <button class="accordion-button bg-shopnav rounded-0 collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#shop_nav_bagsPanel" aria-expanded="false" aria-controls="shop_nav_bagsPanel">
+                                    <div class="w-100 text-center text-md-start">BAGS</div>
+                                </button>
+                            </h2>
+                            <div id="shop_nav_bagsPanel" class="accordion-collapse collapse" aria-labelledby="shop_nav_catBags">
+                                <div class="accordion-body text-center  p-0">
+                                        <a href="#" class="nav-link text-black">Clutch</a>
+                                        <a href="#" class="nav-link text-black border-top">Shoulder Bags</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="shop_nav_catShoes">
+                                <button class="accordion-button collapsed text-center text-md-start text-white bg-shopnav" type="button" data-bs-toggle="collapse" data-bs-target="#shop_nav_shoesPanel" aria-expanded="false" aria-controls="shop_nav_shoesPanel">
+                                    <div class="w-100 text-center text-md-start">SHOES</div>
+                                </button>
+                            </h2>
+                            <div id="shop_nav_shoesPanel" class="accordion-collapse collapse" aria-labelledby="shop_nav_catShoes">
+                                <div class="accordion-body text-center p-0">
+                                        <a href="#" class="nav-link text-black ">Heels</a>
+                                        <a href="#" class="nav-link text-black border-top">Sandals</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+            <div class="col-12 col-md-9 mt-3 mt-md-0">
+                <div id="product-list" class="row g-3 g-md-4"></div>
+            </div>
+        </div>
+    </div>
+</div>

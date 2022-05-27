@@ -1,0 +1,62 @@
+<div id="product-modal" class="modal fade p-0"  tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="row pb-3">
+                        <div class="col-12 col-sm d-flex justify-content-center align-items-center pb-3 pb-sm-0">
+                            <img id="modal_prodImg" src="images/others/sampleBagSquare.jpg" style="width:100%;height:auto;" />
+                        </div>
+                        <div class="col-12 col-sm d-flex flex-column justify-content-center">
+                            <table>
+                                <tr><th id="modal_prodName" colspan="2" class="text-center">Product Name</th></tr>
+                                <tr><td >Price</td><td id="modal_prodPrice" class="ps-2"></td></tr>
+                                <tr><td>Rating</td><td id="modal_prodRating" class="ps-2"></td></tr>
+                                <tr><td>Size</td>
+                                    <td>
+                                        <select  id="modal_prodSize" class="form-select" aria-label="Variation Selector Size">
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Color</td>
+                                    <td>
+                                        <select id="modal_prodColor" class="form-select" aria-label="Variation Selector Color">
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col px-4 text-center">
+                            <div>Description</div>
+                        <div id="modal_prodDesc">
+                            The cat goes meow<br>
+                            The dog goes moo<br>
+                            You go home.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer border-0 d-flex justify-content-center">
+                    <div class="col-12 col-sm input-group">
+                        <span class="input-group-text">Amount:</span>
+                        <input type="number" min="1" value="1" class="form-control" aria-label="Amount" />
+                    </div>
+
+                    <button id="modal_cartBtn" type="button" class="btn btn-success px-4" data-bs-dismiss="modal"><i class="bi bi-cart-plus-fill"></i></button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
