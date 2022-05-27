@@ -1,4 +1,4 @@
-# Project
+# Group Project
 Group Project (bootcamp)
 
 E-commerce webpage (desktop/mobile application version) consisting of the followings:
